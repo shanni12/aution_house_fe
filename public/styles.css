@@ -1,0 +1,74 @@
+form {
+  position: relative;
+  width: 20%;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  text-align: center;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border-radius: 7px;
+  border: solid;
+  border-width: 1px;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  margin: 10px auto;
+}
+
+button {
+  margin: 20px auto 0 auto;
+}
+
+.product {
+  text-align: left;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 60%;
+  margin: 30px auto;
+  background-color: aquamarine;
+
+}
+
+.ProductList {
+  text-align: center;
+}
+
+#root {}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.links{
+  margin: 20px 100px;
+}
+
+.user-name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  justify-content: center;
+}
